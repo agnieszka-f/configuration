@@ -1,8 +1,2 @@
 server:
   port: 7777
-accounts:
-  datasource:
-    url: jdbc:mysql://localhost:3306/docwiczenapi?serverTimezone=Europe/Warsaw&allowPublicKeyRetrieval=true&useSSL=False
-    username: agnfal
-    password: agnfal
-    driver-class-name: com.mysql.cj.jdbc.Driver
