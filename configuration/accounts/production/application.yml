@@ -16,6 +16,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 accounts:
-  allow-get-accounts: false
+  allow-get-accounts: true
 
 
