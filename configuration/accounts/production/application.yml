@@ -1,19 +1,19 @@
 #server:
   #port: 7777
-#spring:
-  #jpa:
-    #database: mysql
-    #hibernate:
-      #ddl-auto: update
-    #properties:
-      #hibernate:
-        #dialect: org.hibernate.dialect.MySQL8Dialect
+spring:
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
 
-  #datasource:
-    #url: jdbc:mysql://localhost:3306/docwiczenapi?serverTimezone=Europe/Warsaw&allowPublicKeyRetrieval=true&useSSL=False
-    #username: agnfal
-    #password: agnfal
-    #driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: jdbc:mysql://localhost:3306/docwiczenapi?serverTimezone=Europe/Warsaw&allowPublicKeyRetrieval=true&useSSL=False
+    username: agnfal
+    password: agnfal
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 accounts:
   allow-get-accounts: true
